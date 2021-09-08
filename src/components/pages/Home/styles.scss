@@ -1,0 +1,43 @@
+@import "./../../../styles/vars";
+
+.wrapper-home-intro {
+  padding: 100px 0 50px 0;
+  height: 350px;
+  &--mobile {
+    background: bottom / cover no-repeat
+      url("./../../../assets/home/mobile/image-header.jpg");
+  }
+  &--tablet {
+    background: center / cover no-repeat
+      url("./../../../assets/home/tablet/image-header.jpg");
+  }
+  &--desktop {
+    background: center / cover no-repeat
+      url("./../../../assets/home/tablet/image-header.jpg");
+  }
+  &__info {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: $primary-grey;
+    opacity: 0.55;
+  }
+  &__title {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+    color: $secondary-white;
+  }
+  &__description {
+    padding: 0 18px;
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: $primary-grey;
+    opacity: 0.55;
+  }
+}
