@@ -1,0 +1,22 @@
+@import "../../styles/vars";
+
+.wrapper-header {
+  background-color: $primary-black;
+  height: 58px;
+  padding-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  &__burger-menu-icon {
+    height: 15px;
+    padding: 5px 0 0 24px;
+  }
+  &__logo {
+    height: 25px;
+    width: 143px;
+  }
+  &__cart-icon {
+    height: 20px;
+    padding: 3px 24px 0 0;
+  }
+}
