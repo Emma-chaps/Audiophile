@@ -26,7 +26,7 @@ const IntroHome = () => {
         Experience natural, lifelike audio and exceptional build quality made
         for the passionate music enthusiast.
       </p>
-      <button>See Product</button>
+      <button className='default-button'>See Product</button>
     </div>
   );
 };

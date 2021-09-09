@@ -1,4 +1,5 @@
 import React from "react";
+import Categories from "../../Categories";
 import Header from "../../Header";
 import HomeIntro from "./IntroHome";
 
@@ -10,6 +11,9 @@ const Home = () => {
       <Header />
       <main>
         <HomeIntro />
+        <div>
+          <Categories />
+        </div>
       </main>
     </>
   );
