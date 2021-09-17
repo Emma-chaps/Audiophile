@@ -12,25 +12,8 @@ const Categories = () => {
   const isTablet = true;
   const isDesktop = true;
 
-  // const findCategories = ({ data }: AppProps) => {
-  //   const categoriesName: string[] = [];
-  //   for (const element of data) {
-  //     const categoryFound = categoriesName.find(
-  //       (name) => name === element.category
-  //     );
-  //     if (!categoryFound) {
-  //       categoriesName.push(element.category);
-  //     }
-  //   }
-  //   console.log(categoriesName);
-  //   return categoriesName;
-  // };
-  // useEffect(() => {
-  //   findCategories(data);
-  // });
-
   return (
-    <div className='wrapper-categories'>
+    <div className='wrapper-categories margin-specifique'>
       <ul>
         <li className='list'>
           <div className='list__container'>

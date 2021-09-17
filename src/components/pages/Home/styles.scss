@@ -41,3 +41,113 @@
     opacity: 0.55;
   }
 }
+
+.wrapper-products {
+  .product-zx9 {
+    .product-zx9-background-img {
+      background-image: url("./../../../assets/home/desktop/pattern-circles.svg");
+      background-position: 50% -120px;
+      background-size: 170%;
+      background-repeat: no-repeat;
+    }
+    background-color: $primary-orange;
+    padding: 0 0 55px 0;
+    border-radius: 8px;
+    &__img-container {
+      &__img-zx9-home {
+        height: 207px;
+        transform: translateY(50px);
+      }
+    }
+    &__title {
+      margin: 90px 0 0 0;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 40px;
+      text-align: center;
+      letter-spacing: 1.28571px;
+      text-transform: uppercase;
+      color: $secondary-white;
+    }
+    &__description {
+      color: $secondary-white;
+      padding: 10px 15px;
+      opacity: 0.75;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 25px;
+    }
+    &__btn {
+      padding: 15px 30px;
+      background-color: $secondary-black;
+      color: $secondary-white;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 18px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      border: none;
+    }
+  }
+  .product-zx7 {
+    height: 320px;
+
+    background-image: url("./../../../assets/home/mobile/image-speaker-zx7.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    border-radius: 8px;
+    &__title {
+      transform: translate(-35px, 100px);
+      font-weight: bold;
+      font-size: 28px;
+      line-height: 38px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: $secondary-black;
+    }
+    &__btn {
+      transform: translate(-53px, 100px);
+      padding: 15px 30px;
+      border: none;
+      border: 1px solid #000000;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 18px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+  }
+  .product-yx1 {
+    margin: 30px 0;
+    &__img {
+      border-radius: 8px;
+      height: 200px;
+    }
+    &__container {
+      height: 200px;
+      margin: 30px 0;
+      background-color: $primary-grey;
+      &__title {
+        transform: translate(-15px, 40px);
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+      &__btn {
+        color: $secondary-black;
+        transform: translate(-55px, 40px);
+        padding: 15px 30px;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        border: 1px solid $secondary-black;
+      }
+    }
+  }
+}

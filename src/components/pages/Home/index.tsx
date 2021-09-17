@@ -1,7 +1,8 @@
 import React from "react";
 import Categories from "../../Categories";
 import Header from "../../Header";
-import HomeIntro from "./IntroHome";
+import Intro from "./Intro";
+import Products from "./Products";
 
 import "./styles.scss";
 
@@ -10,10 +11,9 @@ const Home = () => {
     <>
       <Header />
       <main>
-        <HomeIntro />
-        <div>
-          <Categories />
-        </div>
+        <Intro />
+        <Categories />
+        <Products />
       </main>
     </>
   );
